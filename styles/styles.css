@@ -1,0 +1,72 @@
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #004b87;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif, serif;       }
+        nav {
+            background: #007acc;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        footer {
+            background: #004b87;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .form-container {
+            background: #f9f9f9;
+            padding: 2rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        form label {
+            display: block;
+            margin: 0.5rem 0 0.2rem;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        form button {
+            background: #007acc;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background: #005f99;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+    .objetivos {
+        font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    }
