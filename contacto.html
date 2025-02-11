@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css" type="text/css"/>
+    <title>Iniciativa de Solidaridad</title>
+</head>
+<body>
+<header class="page-title">
+    <div class="logo">
+        <img src="images/solidario.png" alt="Solidarity Logo">
+    </div>
+    <h1>Únase a nuestra lucha contra la pobreza</h1>
+
+<nav>
+    <a href="index.html">inicio</a></li>
+            <a href="objetivos.html">Objetivos</a>
+            <a href="content.html/necesidades.html">Necesidad de los ODS</a>
+            <a href="#importancia">Importancia</a>
+            <a href="#efecto">Efecto en Políticas Económicas</a>
+            <a href="#evolucion">Evolución y Soluciones</a>
+</nav>
+</header>
+<form>
+    <fieldset>
+        <legend>Información personal</legend>
+        <div><label for="name">Nombre entero*</label></div>
+        <input type="text" class="input-field"id="name" name="name" required="required"/>
+        <div><label for="surnames">Apellidos*</label></div>
+        <input type="text" class="input-field"id="surname" name="surname" required="required"/>
+        <div><label for="email">Email*</label></div>
+        <input type="email" class="input-field"id="email" name="email" required="required"/>
+        <div><label for="phone">Telefono*</label></div>
+        <input type="tel" class="input-field"id="phone" name="phone" required="required"/>
+        <label for="situation">Your Situation</label>
+        <select id="situation" name="situation" required>
+            <option value="">- Select -</option>
+            <option value="Need Support">I need support</option>
+            <option value="Want to Volunteer">I want to volunteer</option>
+            <option value="Want to Donate">I want to donate</option>
+        </select>
+    </fieldset>
+    <div>
+        <input type="submit" class="input-submit" value="Send"/>
+    </div>
+</form>
+<footer>
+    <p>&copy; 202 Triunfo Gardens. All rights reserved.</p>
+</footer>
+</body>
+</html>
