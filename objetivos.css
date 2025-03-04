@@ -103,10 +103,16 @@ p {
     padding: 10px; /* Agrega un poco de espacio interno */
 }
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     background: #004b87;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
 }
+
+
 
 
