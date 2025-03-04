@@ -3,12 +3,12 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-        }
-        .logo img {
-            max-width: 10px;
-            height: auto;
-            margin-bottom: 20px;
-        }
+                }
+                .logo img {
+                    max-width: 100px;
+                    height: auto;
+                    margin-bottom: 20px;
+                }
         header {
             background: #004b87;
             color: #fff;
@@ -32,7 +32,7 @@
         }
         section {
             padding: 2rem;
-            max-width: 1200px;
+            max-width: 120px;
             margin: auto;
         }
         footer {
