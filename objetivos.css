@@ -21,6 +21,22 @@ header {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif, serif;
 }
+.animated-image {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: auto;
+    animation: moveSideToSide 4s infinite alternate ease-in-out;
+}
+
+@keyframes moveSideToSide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(50px);
+    }
+}
 
 nav {
     background: #007acc;

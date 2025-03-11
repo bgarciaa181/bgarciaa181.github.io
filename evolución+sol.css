@@ -56,8 +56,6 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
-    background-color: #005f8e; /* Nuevo color de fondo al pasar el cursor */
-    border-radius: 4px;
 }
 
 section {
@@ -66,8 +64,8 @@ section {
     margin: auto;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadí sombra para darle un toque elegante */
-    margin-top: 2rem; /* Espaciado superior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 2rem; 
 }
 
 h1, h2, h3 {
@@ -143,11 +141,11 @@ p {
     display: block;         
     margin-left: auto;      
     margin-right: auto;     
-    transition: transform 0.3s ease; /* Animación para el hover */
+    transition: transform 0.3s ease; 
 }
 
 .section-image:hover {
-    transform: scale(1.05); /* Zoom al pasar el cursor */
+    transform: scale(1.05); 
 }
 
 footer {
