@@ -53,6 +53,39 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
 }
+.animated-image {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    height: auto;
+    animation: moveSideToSide 4s infinite alternate ease-in-out;
+}
+
+@keyframes moveSideToSide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(50px);
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.side-image {
+    width: 200px;
+    height: auto;
+}
+.form-wrapper {
+    flex: 1;
+    max-width: 600px;
+}
+
 .form-container:hover {
     transform: translateY(-5px);
 }
