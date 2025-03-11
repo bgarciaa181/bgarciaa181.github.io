@@ -60,12 +60,25 @@ form label {
     display: block;
     margin: 0.5rem 0 0.2rem;
 }
-form input, form textarea, form button {
-    width: 100%;
+form {
+    max-width: 500px; /* Limita el ancho del formulario */
+    margin: 0 auto; /* Lo centra en la página */
+    background: #fff; /* Fondo blanco para que resalte */
+    padding: 2rem; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+}
+
+form input, form textarea, form select, form button {
+    width: 100%; /* Se adapta al formulario, sin ocupar toda la página */
+    max-width: 400px; /* Evita que se extiendan demasiado */
     padding: 0.5rem;
     margin-bottom: 1rem;
     border: 1px solid #ddd;
     border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 form button {
     background: #007acc;
@@ -75,6 +88,7 @@ form button {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
 }
+
 form button:hover {
     background: #005f99;
     transform: translateY(-3px);

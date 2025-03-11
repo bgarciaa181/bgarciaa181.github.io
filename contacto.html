@@ -16,7 +16,7 @@
 <nav>
     <a href="index.html">inicio</a></li>
             <a href="objetivos.html">Objetivos</a>
-            <a href="content.html/necesidades.html">Necesidad de los ODS</a>
+            <a href="necesidades.html">Necesidad de los ODS</a>
             <a href="importanciaODS1.html">Importancia</a>
             <a href="efecto.html">Efecto en Políticas Económicas</a>
             <a href="evolución+sol.html">Evolución y Posibles Soluciones</a>
@@ -32,7 +32,7 @@
         <div><label for="email">Email*</label></div>
         <input type="email" class="input-field"id="email" name="email" required="required"/>
         <div><label for="phone">Telefono*</label></div>
-        <input type="tel" class="input-field"id="phone" name="phone" required="required"/>
+        <input type="tel" class="input-field" id="phone" name="phone" required="required" pattern="[0-9]{7,15}" inputmode="numeric" title="Por favor, ingrese solo números (mínimo 7, máximo 15)."/>
         <label for="situation">Your Situation</label>
         <select id="situation" name="situation" required>
             <option value="">- Select -</option>
@@ -48,6 +48,5 @@
 <footer>
     <p>&copy; 2025 bgarciaa181 en GitHub. Todos los derechos reservados.</p>
 </footer>
-
 </body>
 </html>
