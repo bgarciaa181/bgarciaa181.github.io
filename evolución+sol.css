@@ -21,7 +21,6 @@ header {
     align-items: center; 
     justify-content: center;
 }
-
 header .logo img {
     max-width: 100px;
     height: auto;
