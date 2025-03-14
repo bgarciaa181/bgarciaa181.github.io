@@ -35,8 +35,6 @@ Para contribuir, sigue estos pasos:
 
 Haz un fork de este repositorio.
 
-Crea una rama con tu contribución: git checkout -b mi-contribucion.
-
 Realiza tus cambios y sube los commits.
 
 Envía un pull request para revisión.
